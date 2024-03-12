@@ -1,0 +1,41 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+.container {
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: #b5f1cc;
+}
+
+.info {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.details {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-size: 30px;
+}
+/* 
+   * Optional: Makes the sample page fill the window. 
+   */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
